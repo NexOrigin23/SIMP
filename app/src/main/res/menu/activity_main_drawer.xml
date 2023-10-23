@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_simp"
+            android:icon="@drawable/logo_blank"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@drawable/orders_ic"
+            android:title="My Orders" />
+
+        <item
+            android:id="@+id/nav_my_rewards"
+            android:icon="@drawable/rewards_ic"
+            android:title="My Rewards" />
+
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@drawable/cart_ic"
+            android:title="My Cart" />
+
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/profile_ic"
+            android:title="My Account" />
+
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/sign_out_ic"
+            android:title="Sign Out" />
+
+
+    </group>
+</menu>
